@@ -73,5 +73,3 @@ var InputCount = new Class({
 		return this.figure.set('html', leng + ' ' + opts);
 	}
 });
-
-
