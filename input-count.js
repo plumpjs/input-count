@@ -14,8 +14,8 @@ var InputCount = new Class({
 	options: {
 		maxLength               : 20,
 		alertThreshold          : 5,
-		suffix 					: 'character remaining',
-		suffixPlural		    : 'characters remaining',
+		suffix                  : 'character remaining',
+		suffixPlural            : 'characters remaining',
 		showSuffix              : true,
 		inputAlertSelector      : 'js-count--alert',
 		figureAlertSelector     : 'js-count-figure--alert'
