@@ -2,6 +2,12 @@
 
 Count input length and read it out to the UI with optional alert states.
 
+## Install
+
+Using Bower:
+````
+$ bower install --save plumpjs-input-count
+````
 
 ## Usage
 
