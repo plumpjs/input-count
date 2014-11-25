@@ -1,0 +1,23 @@
+{
+  "name": "plumpjs-input-count",
+  "version": "0.1.0",
+  "authors": [
+    "James Martin-Davies <jamesmd@plumpdigitial.co.uk>"
+  ],
+  "description": "Count and limit the length of any input passed with alert states.",
+  "main": "input-count.js",
+  "keywords": [
+    "plumpjs",
+    "input",
+    "ui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/plumpjs/input-count"
+}
