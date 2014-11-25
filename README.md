@@ -42,7 +42,7 @@ We can pass a number of options in to our plugin:
 
 | Option  			| Type   	| Default Value		| Description		|
 |---	    		|---	    |---	 			|---    			|
-| maxLength     	| Integer   | 20				| Define the maximum character length.. |
+| maxLength     	| Integer   | 20				| Define the maximum character length. |
 | alertThreshold  	| Integer  	| 5					| At a certain number, add alert states. |
 | suffix  			| String  	| 'character remaining'	 | Text to show after the counter. |
 | suffixPlural  	| String  	| 'characters remaining' | Pluralised version of the suffix. |
@@ -50,7 +50,7 @@ We can pass a number of options in to our plugin:
 | inputAlertSelector  | String  | 'js-count--alert'	| Add class to input when the alertThreshold is met. |
 | figureAlertSelector | String  | 'js-count-figure--alert' | Add class to figure when the alertThreshold is met. |
 
-Apply options by passing in a second array of arguments:
+Apply options by passing in an array of arguments:
 
 ````
 $$('.js-count').each(function(el) {
