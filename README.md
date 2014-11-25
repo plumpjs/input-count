@@ -1,4 +1,4 @@
-# Tabs
+# Input Count
 
 Count input length and read it out to the UI with optional alert states.
 
