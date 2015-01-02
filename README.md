@@ -13,19 +13,19 @@ $ bower install --save plumpjs-input-count
 
 Using extremely basic HTML:
 
-````
+````HTML
 <input class="js-count" type="text">
 <span class="js-count-figure"></span>
 ````
 Or, you can use textarea too:
-````
+````HTML
 <textarea class="js-count"></textarea>
 <span class="js-count-figure"></span>
 ````
 
 Now implement the loop for each `InputCount` call:
 
-````
+````JavaScript
 $$('.js-count').each(function(el) {
 
 	new InputCount();
@@ -52,7 +52,7 @@ We can pass a number of options in to our plugin:
 
 Apply options by passing in an array of arguments:
 
-````
+````JavaScript
 $$('.js-count').each(function(el) {
 
 	new InputCount(el, {
