@@ -1,11 +1,11 @@
 /* exported InputCount */
 
 /**
- *  PlumpJS: InputCount
- *  Count/limit the length of any input passed.
- *  You should always validate values server-side as the DOM can easily
- *  be manipulated. This is purely used to impose a UI feature by
- *  displaying a figure to the user.
+ *    PlumpJS: InputCount
+ *    Count/limit the length of any input passed.
+ *    You should always validate values server-side as the DOM can easily
+ *    be manipulated. This is purely used to impose a UI feature by
+ *    displaying a figure to the user.
  */
 'use strict';
 
